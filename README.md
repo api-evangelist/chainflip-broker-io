@@ -1,4 +1,4 @@
-# chainflip-broker-io
+# Chainflip Broker as a Service
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,138 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-chainflip-broker-io is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://chainflip-broker.io/
+Chainflip Broker as a Service (BaaS) enables users to run a Chainflip broker without managing infrastructure. It offers fully managed broker infrastructure, commission protection, automatic updates, DCA swaps, boosted deposits, and a REST API plus MCP server for AI agents. Pricing includes a 0.05% operating fee per swap with optional broker fees. The platform targets DeFi participants seeking seamless cross-chain swaps and liquidity provisioning.
+
+**Areas:** Finance · DeFi · Crypto · Broker · Infrastructure · Company
+
+## Chainflip Broker as a Service on APIs.io
+
+Everything profiled for Chainflip Broker as a Service is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/chainflip-broker-io/](https://apis.io/providers/chainflip-broker-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (9)
+
+- [Chainflip Broker as a Service Assets API](https://apis.io/apis/chainflip-broker-io/chainflip-broker-io-assets-api/) — The assets you can swap: their ids, decimals, minimum swap amounts, USD prices and logos. No key needed.
+- [Chainflip Broker as a Service Fees API](https://apis.io/apis/chainflip-broker-io/chainflip-broker-io-fees-api/) — The broker fees you have earned.
+- [Chainflip Broker as a Service Networks API](https://apis.io/apis/chainflip-broker-io/chainflip-broker-io-networks-api/) — The networks you can swap on, and their logos. No key needed.
+- [Chainflip Broker as a Service Onboarding API](https://apis.io/apis/chainflip-broker-io/chainflip-broker-io-onboarding-api/) — How to start: what works without a key, how to get one, the sandbox and a first call.
+- [Chainflip Broker as a Service Quote API](https://apis.io/apis/chainflip-broker-io/chainflip-broker-io-quote-api/) — Quotes for a swap: the expected output, every fee, and Chainflip's recommended slippage protection, retry window and live price protection. Ask for one…
+- [Chainflip Broker as a Service Rpc API](https://apis.io/apis/chainflip-broker-io/chainflip-broker-io-rpc-api/) — A Chainflip broker JSON-RPC endpoint for the Chainflip SDK and other broker clients: point their broker URL at it and the deposit channels and vault swaps…
+- [Chainflip Broker as a Service Status API](https://apis.io/apis/chainflip-broker-io/chainflip-broker-io-status-api/) — Follow a swap, from waiting for the deposit to completed or failed, looked up by BaaS swap id, deposit channel or deposit transaction.
+- [Chainflip Broker as a Service Swap API](https://apis.io/apis/chainflip-broker-io/chainflip-broker-io-swap-api/) — Start a swap: open a deposit channel that the source asset is sent to.
+- [Chainflip Broker as a Service Swaps API](https://apis.io/apis/chainflip-broker-io/chainflip-broker-io-swaps-api/) — The swaps made through your broker: a filterable list, and a feed of completed swaps for processing each one exactly once.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Chainflip Broker Io Agentic Access](https://apis.io/agentic-access/chainflip-broker-io/chainflip-broker-io-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [ChainflipBaas.Fees.FeesResponse](https://apis.io/schemas/chainflip-broker-io/chainflip-broker-io-chainflip-baas-fees-fees-response/)
+- [ChainflipBaas.Infrastructure.Http.OnboardingDocument](https://apis.io/schemas/chainflip-broker-io/chainflip-broker-io-chainflip-baas-infrastructure-http-onboarding-document/)
+- [ChainflipBaas.Quote.Quote](https://apis.io/schemas/chainflip-broker-io/chainflip-broker-io-chainflip-baas-quote-quote/)
+- [ChainflipBaas.Status.StatusResponse](https://apis.io/schemas/chainflip-broker-io/chainflip-broker-io-chainflip-baas-status-status-response/)
+- [ChainflipBaas.Swap.DepositAddress](https://apis.io/schemas/chainflip-broker-io/chainflip-broker-io-chainflip-baas-swap-deposit-address/)
+- [ChainflipBaas.SwapsFeed.FeedStatusResponse](https://apis.io/schemas/chainflip-broker-io/chainflip-broker-io-chainflip-baas-swaps-feed-feed-status-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Chainflip Broker Io Context](https://apis.io/jsonld/chainflip-broker-io/chainflip-broker-io-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Chainflip Broker as a Service API Rules](https://apis.io/rules/chainflip-broker-io/chainflip-broker-io-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Chainflip Broker Io Authentication](https://apis.io/security/chainflip-broker-io/chainflip-broker-io-authentication/)
+- [Chainflip Broker Io Domain Security](https://apis.io/security/chainflip-broker-io/chainflip-broker-io-domain-security/)
+- [Chainflip Broker Io Vulnerability Disclosure](https://apis.io/security/chainflip-broker-io/chainflip-broker-io-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Chainflip Broker Io Plans Pricing](https://apis.io/plans/chainflip-broker-io/chainflip-broker-io-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://chainflip-broker.io/)
+- [Documentation](https://docs.chainflip-broker.io/)
+- [Getting started](https://chainflip-broker.io/onboarding)
+- [API reference](https://docs.chainflip-broker.io/resources/api-documentation/)
+- [Pricing](https://docs.chainflip-broker.io/resources/pricing/)
+- [Sign up](https://chainflip-broker.io/register)
+- [Support](https://docs.chainflip-broker.io/resources/contact/)
+- [Changelog](https://docs.chainflip-broker.io/changelog/)
+- [Privacy policy](https://chainflip-broker.io/privacy)
+
+## API Evangelist rating
+
+**Kin Score 57.1** — strong · rubric 0.25.0 · scored 2026-11-03
+
+| Facet | Score |
+|---|---|
+| Discoverability | 56.7 |
+| Contract quality | 58.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 58.8 |
+| Access clarity | 53.2 |
+
+**Agent readiness 43.4** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 30.6** — Securities & Market Data
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/chainflip-broker-io/](https://apis.io/providers/chainflip-broker-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Chainflip Broker as a Service: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/chainflip-broker-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
